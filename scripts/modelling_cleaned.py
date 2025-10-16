@@ -34,7 +34,7 @@ def train_model(x_train, y_train, x_val, y_val):
                         'gamma' : 0.3391370082694971, 'seed' : 42, 'max_depth' :19,
                         'min_child_weight' : 5,
                         'learning_rate' :0.1286049132579215,
-                         'objective' : 'binary:hinge',
+                         'objective' : 'binary:logistic',
                         'colsample_bytree' : 0.6965119068062329, 'reg_alpha': 0.16585451812037608,
                         'subsample' : 0.7561490535729092
                         }
